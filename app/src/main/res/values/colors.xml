@@ -1,0 +1,16 @@
+<resources>
+    <color name="main_color">#F491B3</color>
+    <color name="sub_color">#9575CD</color>
+    <color name="sub_color_pressed">#C296CD</color>
+    <color name="hurin_color">#CCCCCC</color>
+    <color name="status_bar_color">#EF6392</color>
+    <color name="default_bg_color">#efefef</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="tabsScrollColor">#00897B</color>
+    <color name="colorPrimary">#6788C9</color>
+    <color name="colorPrimaryDark">#5273B1</color>
+    <color name="background">#3E5795</color>
+    <color name="white">#FAFAFA</color>
+    <color name="met">#5273b2</color>
+
+</resources>

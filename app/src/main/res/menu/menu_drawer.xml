@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="메뉴">
+        <menu>
+            <item
+                android:id="@+id/drawer_view_save"
+                android:title="저장된 항목 보기" />
+            <item
+                android:id="@+id/drawer_info_1"
+                android:title="대중교통 분실물 센터 안내" />
+            <item
+                android:id="@+id/drawer_info_2"
+                android:title="분실물 처리 안내" />
+            <item
+                android:id="@+id/drawer_find_webview"
+                android:title="분실물 신고/확인" />
+            <item
+                android:id="@+id/drawer_setting"
+                android:title="설정"/>
+            <item
+                android:id="@+id/reset"
+                android:title="데이터 리셋"/>
+        </menu>
+    </item>
+</menu>

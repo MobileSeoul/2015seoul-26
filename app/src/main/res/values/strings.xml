@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">I.LOST.U</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string-array name="lostType">
+        <item>가방</item>
+        <item>기타</item>
+        <item>베낭</item>
+        <item>서류봉투</item>
+        <item>쇼핑백</item>
+        <item>옷</item>
+        <item>지갑</item>
+        <item>책</item>
+        <item>파일</item>
+        <item>핸드폰</item>
+    </string-array>
+
+    <string-array name="offline_center">
+        <item>구로역 분실물 센터</item>
+        <item>대곡역 분실물 센터</item>
+        <item>광운대역 분실물 센터</item>
+        <item>안산역 분실물 센터</item>
+        <item>선릉역 분실물 센터</item>
+        <item>병점역 분실물 센터</item>
+        <item>문산역 분실물 센터</item>
+        <item>김포공항역 분실물 센터</item>
+        <item>서울역( 경부선 ) 분실물 센터</item>
+        <item>문산역( 경의선 ) 분실물 센터</item>
+        <item>구로역( 경인선 ) 분실물 센터</item>
+        <item>인천역( 경인선 ) 분실물 센터</item>
+        <item>왕십리역( 분당선 ) 분실물 센터</item>
+        <item>청량리역( 중앙선 ) 분실물 센터</item>
+        <item>의정부역( 경원선 ) 분실물 센터</item>
+        <item>인천 국제 공항 분실물 센터</item>
+        <item>대곡역( 일산선 ) 분실물 센터</item>
+        <item>영등포역( 경부선 ) 분실물 센터</item>
+        <item>부평역( 경인선 ) 분실물 센터</item>
+        <item>수원역( 경부선 ) 분실물 센터</item>
+        <item>안산역( 안산선 ) 분실물 센터</item>
+        <item>광운대역( 경원선 ) 분실물 센터</item>
+        <item>천안역( 경부선 ) 분실물 센터</item>
+        <item>김포공항 분실물 센터</item>
+    </string-array>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/content_sq"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_listview_state_background">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:padding="16dp"
+                android:text="분실당일 15시가 안된 경우"
+                android:textColor="#FAFAFA"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="16dp"
+                android:src="@drawable/ic_spinner_hold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/vis"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="아직 분실물센터에 인계되지 않았을 수도 있습니다.\n아직 분실물센터에 인계되지 않았을 수도 있습니다.\n아직 분실물센터에 인계되지 않았을 수도 있습니다."
+                android:textColor="#FAFAFA"
+                android:textSize="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:id="@+id/button0"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_square"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/button_text0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="분실물 접수"
+                        android:textColor="#FAFAFA"
+                        android:textSize="10dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:id="@+id/button1"
+                    android:layout_width="1dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_square"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/button_text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="분실물 조회"
+                        android:textColor="#FAFAFA"
+                        android:textSize="10dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
